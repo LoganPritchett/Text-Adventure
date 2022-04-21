@@ -87,29 +87,4 @@ def house():
             field()
 
 
-def cave():
-    # Things that happen to the player goes in the cave
-    if "sword" in items:
-        print_sleep("You peer cautiously into the cave.Cave is full of darkness")
-        print_sleep("You've been here before, and gotten all "
-                    "the good stuff. It's just an empty cave now.")
-        print_sleep("You walk back out to the field.")
-        field()
-    else:
-        print_sleep("You peer cautiously into the cave.")
-        print_sleep("It turns out to be only a very small cave.")
-        print_sleep("Your eye catches a glint of metal behind a rock.")
-        print_sleep("You have found the magical Sword of Ogoroth!")
-        print_sleep("You discard your silly old dagger and "
-                    "take the sword with you.")
-        print_sleep("You walk back out to the field.\n")
-        items.append("sword")
-        field()
 
-
-def game():
-    intro()
-    field()
-
-
-game()
