@@ -105,7 +105,25 @@ def cave():
         print_sleep("You walk back out to the field.\n")
         items.append("sword")
         field()
+        
+def woods():
+    # Things that happen to the player in the woods.
+    print_sleep("You approach the door of the woods.")
+    print_sleep(f"You are about to knock when the "
+                "door opens and out steps a {demon}.")
+    print_sleep(f"Eep! This is the {demon}'s woods!")
+    print_sleep(f"The {demon} attacks you!")
 
+    if "sword" in items:
+        print_sleep(f"As the {demon} moves to attack, "
+                    "you unsheath your new sword.")
+        print_sleep("The Sword of Ogoroth shines brightly in "
+                    "your hand as you brace yourself for the attack.")
+        print_sleep(f"But the {demon} takes one look at "
+                    "your shiny new toy and runs away!")
+        print_sleep(f"You have rid the town of "
+                    "the {demon}. You are victorious!")
+        restart_game()
 
 
 def game():
