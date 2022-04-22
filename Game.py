@@ -1,3 +1,4 @@
+#This adds extra commands for use in the code. The print_sleep command for example is under the time selection of code.
 import time
 import random
 
@@ -10,7 +11,7 @@ def print_sleep(message):
     print(message)
     time.sleep(2)
 
-
+#This covers what happens if the game ends, what does the code do next. It allows the player to either play it again or close it
 def restart_game():
     if "sword" in items:
         items.remove("sword")
@@ -24,7 +25,7 @@ def restart_game():
     else:
         restart_game()
 
-
+#Opening situation, setting the plot and stage of the game
 def intro():
     print_sleep("You find yourself standing in an open area, "
                 "filled with grass and yellow wildflowers.")
@@ -113,7 +114,7 @@ def woods():
                 "door opens and out steps a {demon}.")
     print_sleep(f"Eep! This is the {demon}'s woods!")
     print_sleep(f"The {demon} attacks you!")
-
+    # This is a conditional statement that allows the story to progress if the player has fulfilled a set condition
     if "sword" in items:
         print_sleep(f"As the {demon} moves to attack, "
                     "you unsheath your new sword.")
@@ -123,6 +124,7 @@ def woods():
                     "your shiny new toy and runs away!")
         print_sleep(f"You have rid the town of "
                     "the {demon}. You are victorious!")
+        print_sleep("Thank you for playing this game!")
         restart_game()
 
 
