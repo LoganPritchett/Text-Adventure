@@ -20,8 +20,8 @@ PROJECT IN MAKING:
 
 1. Develop idea for game DONE
 2. Use code from another repository to help guide on this one. DONE
-3. Come up with story, problem, and solution
-4. Create different branches and choices
+3. Come up with story, problem, and solution DONE
+4. Create different branches and choices - WIP
 5. Make an ending, and loss endings
 6. Thank player for playing game
 7. Double check code
