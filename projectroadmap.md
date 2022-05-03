@@ -21,16 +21,16 @@ PROJECT IN MAKING:
 1. Develop idea for game DONE
 2. Use code from another repository to help guide on this one. DONE
 3. Come up with story, problem, and solution DONE
-4. Create different branches and choices - WIP
-5. Make an ending, and loss endings
-6. Thank player for playing game
-7. Double check code
+4. Create different branches and choices - DONE
+5. Make an ending, and loss endings - DONE
+6. Thank player for playing game - DONE
+7. Double check code - DONE
 
 PRESENTING PROJECT
 
-1. Create power point and submit it.
-2. Prepare presentation
-3. schedule presentation time
+1. Create power point and submit it. - DONE
+2. Prepare presentation - DONE
+3. schedule presentation time - DONE
 4. start presentation and screenshot it
 5. upload presentation
 
