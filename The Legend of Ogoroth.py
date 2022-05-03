@@ -2,7 +2,7 @@
 import time
 import random
 
-enemy = ["wicked fairie", "troll", "gorgon", "monster"]
+enemy = ["wicked fairie", "troll", "gorgon", "demon"]
 demon = random.choice(enemy)
 items = []
 
